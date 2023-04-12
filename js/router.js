@@ -6,10 +6,10 @@ const route = (event) => {
 }
 
 const routes = {
-  404: '',
-  "/": '/pages/index.html',
-  "/about": '/pages/about.html',
-  "/lorem": '/pages/lorem.html'
+  404: '/pages/404.html' || 'https://raw.githubusercontent.com/hawariMuflihMunte/Vanilla-Router/main/pages/404.html',
+  "/": '/pages/index.html' || 'https://raw.githubusercontent.com/hawariMuflihMunte/Vanilla-Router/main/pages/index.html',
+  "/about": '/pages/about.html' || 'https://raw.githubusercontent.com/hawariMuflihMunte/Vanilla-Router/main/pages/about.html',
+  "/lorem": '/pages/lorem.html' || 'https://raw.githubusercontent.com/hawariMuflihMunte/Vanilla-Router/main/pages/lorem.html'
 }
 
 const handleLocation = async () => {
